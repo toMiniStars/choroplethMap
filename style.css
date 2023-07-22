@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: bisque;
+}
+
+#container {
+  text-align: center;
+  margin: 20px;
+}
+
+#title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.county {
+  stroke: #fff;
+}
+
+#tooltip {
+  position: absolute;
+  visibility: hidden;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  pointer-events: none;
+}
